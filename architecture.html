@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A reflection on consciousness, complexity, and intentionality.">
+    <title>The Architecture of Thought</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@300;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a1a;
+            --secondary: #666666;
+            --accent: #000000;
+            --border: #eeeeee;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: clamp(2rem, 10vw, 8rem) clamp(1rem, 5vw, 2rem);
+        }
+
+        main {
+            max-width: 640px;
+            width: 100%;
+        }
+
+        header {
+            margin-bottom: 5rem;
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            font-size: clamp(1.5rem, 4vw, 2.25rem);
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+            color: var(--accent);
+        }
+
+        .subtitle {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 300;
+            color: var(--secondary);
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .separator {
+            width: 40px;
+            height: 1px;
+            background: var(--border);
+            margin: 3rem 0;
+        }
+
+        article section {
+            margin-bottom: 3rem;
+        }
+
+        p {
+            font-size: 1.125rem;
+            font-weight: 300;
+            margin-bottom: 1.5rem;
+        }
+
+        .nav-link {
+            display: inline-block;
+            margin-top: 4rem;
+            color: var(--secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 400;
+            letter-spacing: 0.05em;
+            border-bottom: 1px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--accent);
+            border-bottom: 1px solid var(--accent);
+        }
+
+        footer {
+            margin-top: 6rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            width: 100%;
+            max-width: 640px;
+            color: var(--secondary);
+            font-size: 0.875rem;
+            font-weight: 300;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        main {
+            animation: fadeIn 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <p class="subtitle">Meditation</p>
+            <h1>The Architecture of Thought</h1>
+        </header>
+
+        <article>
+            <section>
+                <p>Think of chemical processes, very complex, everywhere, everything.</p>
+                <p>Think of the future and fabricate it.</p>
+                <p>Think of every consequence of your action.</p>
+                <p>Think of future past you in different existence.</p>
+                <p>Think of great men and feel like being them.</p>
+                <p>Think of great books, feel having those qualities.</p>
+                <p>Feel your body, find your existence in it.</p>
+            </section>
+        </article>
+
+        <a href="index.html" class="nav-link">← BACK TO THE NEGATIVE PATH</a>
+
+        <footer>
+            <p>&copy; 2024 &mdash; A reflection on the architecture of being.</p>
+        </footer>
+    </main>
+</body>
+
+</html>
